@@ -16,7 +16,7 @@
     <!-- h2 is used as a sub header to our h1 - named 'Cat Photos'-->
     <h2>Cat Photos</h2>
     <p>See more cat photos in our gallery.</p>
-    <!-- image of cat is displayed bewlo - <img> element has a self closing tag-->
+    <!-- image of cat is displayed below - <img> element has a self closing tag-->
     <img>
 </section>
 <!-- 3:  another section for Cat Lists-->
@@ -48,15 +48,30 @@
 <!-- 5: section-->
 <section>
     <!-- form information -->
+    <!-- fieldset element is used to group labels and controls in a web form-->
     <form>
-        <legend>
-            <label>
-                <input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor
-                <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor
-                <input type="radio" id="both" name="both" value="both"> Both
-                <input type="radio" id="other" name="other" value="other"> Other
-            </label>
-        </legend>
+        <fieldset>
+            <legend> Select the type of environment your cat likes below:
+                <label>
+                    <input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor
+                    <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor
+                    <input type="radio" id="both" name="indoor-outdoor" value="both"> Both
+                    <input type="radio" id="other" name="indoor-outdoor" value="other"> Other
+                </label>
+            </legend>
+        </fieldset>
+        <fieldset>
+            <legend> Check the type of color your cat is:
+                <label>
+                    <input type="checkbox" id="black" name="cat-color" value="black">Black
+                    <input type="checkbox" id="white" name="cat-color" value="white">White
+                    <input type="checkbox" id="orange" name="cat-color" value="orange">Orange
+                </label>
+            </legend>
+        </fieldset>
+        <!-- input field for our button element with a 'placeholder' attribute-->
+        <input type="text" name="cat photo url" placeholder="Cat Photo Url: ">
+        <button type="button">Submit</button>
     </form>
 </section>
 </body>
