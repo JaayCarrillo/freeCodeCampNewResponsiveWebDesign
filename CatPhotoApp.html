@@ -15,9 +15,9 @@
 <section>
     <!-- h2 is used as a sub header to our h1 - named 'Cat Photos'-->
     <h2>Cat Photos</h2>
-    <p>See more cat photos in our gallery.</p>
+    <p>See <em>more</em> cat photos in our gallery.</p>
     <!-- image of cat is displayed below - <img> element has a self closing tag-->
-    <img>
+    <img class="cat" src="Images/cat_face.jpg" width="400" height="200" alt="cat photo">
 </section>
 <!-- 3:  another section for Cat Lists-->
 <section>
@@ -25,17 +25,18 @@
     <h3>Things cats love:</h3>
     <!-- un-ordered list of things cats love -->
     <ul>
-        <li>Cat nip</li>
+        <li>Cat nap</li>
         <li>Laser pointers</li>
         <li>lasagna</li>
     </ul>
     <!-- image will be placed below-->
-    <img>
+    <img class="cat" src="Images/cat_feline_cats_eye.jpg" width="400" height="200" alt="cat photo">
     <p>Cats love lasagna</p>
 </section>
 <!-- 4: section-->
 <section>
     <h2>Top 3 things cats hate:</h2>
+    <img class="cat" src="Images/cat_domestic_cat_tibetan_spaniel.jpg" width="400" height="200" alt="cat photo">
     <!-- an ordered list of three things cats hate -->
     <ol>
         <li>Flea treatment</li>
@@ -72,7 +73,16 @@
         <!-- input field for our button element with a 'placeholder' attribute-->
         <input type="text" name="cat photo url" placeholder="Cat Photo Url: ">
         <button type="button">Submit</button>
+        <br>
+        <address>
+            <p>Author of the page</p>
+            <a href="mailto:jaaysdevstudio@gmail.com" >Email: Jaaysdevstudio@gmail.com</a>
+            <a href="tel:+1-800-400-1234">Phone: 1-800-400-1234</a>
+        </address>
     </form>
 </section>
+<footer>
+    <p>No copy right - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+</footer>
 </body>
 </html>
