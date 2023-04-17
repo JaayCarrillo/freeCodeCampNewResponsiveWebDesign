@@ -17,10 +17,13 @@ body {
 to their respective value to re-arrange the text and style
  */
 h1{
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 70px;
     margin-top: 0;
     margin-bottom: 15px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 20px;
 }
 .established {
     font-size: 20px;
@@ -57,3 +60,28 @@ h1, h2, p {
     margin-bottom: 5px;
     font-size: 21px;
 }
+a {
+    color: black;
+}
+a:hover {
+  color: pink;
+}
+a:visited {
+    color: black;
+}
+footer {
+    font-size: 16px;
+}
+.icon {
+    text-align: center;
+}
+div {
+    text-align: center;
+    margin-top: 10px;
+}
+hr {
+    height: 2px;
+    background-color: lightsteelblue;
+    border-color: lightsteelblue;
+}
+
