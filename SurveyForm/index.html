@@ -7,51 +7,53 @@
     <title>Naruto Fandom Form</title>
 </head>
 <body>
-<h1 id="title">Naruto Fandom Form</h1>
-<p id="description">Thank you for taking the time to view our Survey Form</p>
-<form id="survey-form" class="form">
-    <label id="name-label"> Enter your name:
-        <input required class="inputs "id="name" type="text" placeholder="enter name here">
-    </label>
-    <label id="email-label"> Enter your email:
-        <input required class="inputs" id="email" type="email" placeholder="enter email here">
-    </label>
-    <label id="number-label"> Enter favorite season:
-        <input class="inputs" type="number" id="number" pattern="[0-21]" min="1" max="21" placeholder="season" type="number">
-    </label>
-    <select id="dropdown" name="option">
-        <option value="">Choose an option</option>
-        <option value="naruto">Naruto</option>
-        <option value="sasuke">Sasuke</option>
-        <option value="sakura">Sakura</option>
-    </select>
-    <h2>Would you watch Naruto?</h2>
-    <div class="buttons">
+<div class="body">
+    <h1 id="title">Naruto Fandom Form</h1>
+    <p id="description">Thank you for taking the time to view our Survey Form</p>
+    <form id="survey-form" class="form">
+        <label id="name-label"> Enter your name:
+            <input required class="inputs "id="name" type="text" placeholder="enter name here">
+        </label>
+        <label id="email-label"> Enter your email:
+            <input required class="inputs" id="email" type="email" placeholder="enter email here">
+        </label>
+        <label id="number-label"> Enter favorite season:
+            <input class="inputs" type="number" id="number" pattern="[0-21]" min="1" max="21" placeholder="season" type="number">
+        </label>
+        <select id="dropdown" name="option">
+            <option value="">Choose an option</option>
+            <option value="naruto">Naruto</option>
+            <option value="sasuke">Sasuke</option>
+            <option value="sakura">Sakura</option>
+        </select>
+        <h2>Would you watch Naruto?</h2>
+        <div class="buttons">
 
-        <input type="radio" name="buttons" value="choice">
-        <label>Yes</label>
-        <input type="radio" name="buttons" value="choice">
-        <label>Maybe</label>
-        <input type="radio" name="buttons" value="choice">
-        <label>No</label>
-    </div>
-    <fieldset>
-        <legend>Favorite villain:</legend>
-        <div>
-            <input type="checkbox" id="villain" name="kabuto" value="villain">
-            <label for="villain">Kabuto</label>
+            <input type="radio" name="buttons" value="choice">
+            <label>Yes</label>
+            <input type="radio" name="buttons" value="choice">
+            <label>Maybe</label>
+            <input type="radio" name="buttons" value="choice">
+            <label>No</label>
         </div>
-        <div>
-            <input type="checkbox" id="itachi" name="villain" value="itachi">
-            <label for="itachi">Itachi</label>
-        </div>
-        <div>
-            <input type="checkbox" id="obito" name="villain" value="obito">
-            <label for="obito">Obito</label>
-        </div>
-    </fieldset>
-    <textarea></textarea>
-    <input type="submit" id="submit">
+        <fieldset>
+            <legend>Favorite villain:</legend>
+            <div>
+                <input type="checkbox" id="villain" name="kabuto" value="villain">
+                <label for="villain">Kabuto</label>
+            </div>
+            <div>
+                <input type="checkbox" id="itachi" name="villain" value="itachi">
+                <label for="itachi">Itachi</label>
+            </div>
+            <div>
+                <input type="checkbox" id="obito" name="villain" value="obito">
+                <label for="obito">Obito</label>
+            </div>
+        </fieldset>
+        <textarea></textarea>
+        <input type="submit" id="submit">
+     </div>
 </form>
 </body>
 </html>
